@@ -16,6 +16,7 @@ Prerequisites (Node 14 or greater, Java 8 or greater)
 
 
 ## To run in production mode 
+* Install node dependencies first by going to `src/app` and running `npm i`
 * `mvn clean install` from root directory
 * cd `target`
 * `java -jar spring-boot-vue-0.0.1-SNAPSHOT.jar`
